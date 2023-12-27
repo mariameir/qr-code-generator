@@ -6,6 +6,7 @@
 
 .logo-name{
   color: #3865E6; 
+  font-size: 54px;
 }
 
 .logo-content{
@@ -15,6 +16,9 @@
 
 .logo-content img {
   margin-right: 12px;
-  width: 42px;
+  width: 62px;
+}
 
+.input-section{
+  justify-content: center;
 }
