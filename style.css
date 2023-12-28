@@ -15,10 +15,31 @@
 }
 
 .logo-content img {
-  margin-right: 12px;
+  margin-right: 2px;
   width: 62px;
 }
 
 .input-section{
+  display: flex;
   justify-content: center;
+}
+
+input{
+  border: solid 3px #3865E6;
+  border-radius: 10px;
+  padding: 12px 32px;
+  margin-right: 6px;
+  color: #FAF9F6;
+  &::-webkit-input-placeholder {
+    color: #FAF9F6;
+  }
+
+}
+
+.create-qr{
+  color: #faf9f6;
+  background-color:#3865E6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
 }
