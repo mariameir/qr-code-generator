@@ -20,14 +20,16 @@
 }
 
 .input-section{
-  display: flex;
-  justify-content: center;
+  max-width: 100%;
+  width: 400px;
+  position: relative;
 }
 
 input{
+  width: 100%;
   border: solid 3px #3865E6;
   border-radius: 10px;
-  padding: 12px 32px;
+  padding: 1rem 2rem;
   margin-right: 6px;
   color: #FAF9F6;
   &::-webkit-input-placeholder {
