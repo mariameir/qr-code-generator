@@ -6,6 +6,9 @@ body {
   height: 70vh;
   margin: 0; 
 }
+h1{
+  margin: 14px;
+}
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -17,6 +20,7 @@ body {
 .logo-name {
   color: #3865E6;
   font-size: 54px;
+  padding: 0;
 }
 
 .logo-content {
