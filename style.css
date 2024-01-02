@@ -44,4 +44,9 @@ input{
   border: none;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.create-qr:hover{
+  background-color: rgb(66, 109, 196);
 }
