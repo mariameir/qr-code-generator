@@ -1,15 +1,25 @@
-*{
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  margin: 0; 
+}
+
+* {
   font-family: 'Roboto', sans-serif;
   background-color: #111729;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.logo-name{
-  color: #3865E6; 
+.logo-name {
+  color: #3865E6;
   font-size: 54px;
 }
 
-.logo-content{
+.logo-content {
   display: flex;
   justify-content: center;
 }
@@ -19,34 +29,55 @@
   width: 62px;
 }
 
-.input-section{
-  max-width: 100%;
-  width: 400px;
-  position: relative;
-}
-
-input{
-  width: 100%;
-  border: solid 3px #3865E6;
-  border-radius: 10px;
-  padding: 1rem 2rem;
-  margin-right: 6px;
-  color: #FAF9F6;
-  &::-webkit-input-placeholder {
-    color: #FAF9F6;
-  }
-
-}
-
-.create-qr{
-  color: #faf9f6;
-  background-color:#3865E6;
+button {
   border: none;
-  padding: 10px;
-  border-radius: 10px;
   cursor: pointer;
 }
 
-.create-qr:hover{
-  background-color: rgb(66, 109, 196);
+button:hover {
+  opacity: 0.5;
+}
+
+input {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+input:focus {
+  outline: 2px solid white;
+}
+
+input::placeholder {
+  color: whitesmoke;
+}
+
+.wrapper {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.wrapper input {
+  background: #111729;
+  border: 2px solid #3865E6;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.wrapper button {
+  background: white;
+  border-radius: 50px;
+  aspect-ratio: 1;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  right: 5px;
+  transition: background-color 0.3s;
+}
+
+.wrapper button:hover {
+  background-color: greenyellow;
+
 }
