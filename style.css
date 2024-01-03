@@ -38,9 +38,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  opacity: 0.5;
-}
 
 input {
   color: white;
@@ -84,4 +81,8 @@ input::placeholder {
 .wrapper button:hover {
   background-color: greenyellow;
 
+}
+
+.wrapper input:focus {
+  outline: none;
 }
