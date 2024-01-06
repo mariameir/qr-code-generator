@@ -68,6 +68,9 @@ input::placeholder {
 }
 
 .wrapper button {
+  padding:0px 16px 0 16px;
+  color: #3865E6;
+  font-weight:500;
   background: white;
   border-radius: 50px;
   aspect-ratio: 1;
@@ -79,7 +82,8 @@ input::placeholder {
 }
 
 .wrapper button:hover {
-  background-color: greenyellow;
+  background-color:#3865E6;
+  color: blanchedalmond;
 }
 
 .wrapper input:focus {
